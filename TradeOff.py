@@ -10,6 +10,7 @@ y_train = y[0:80]
 train_rmse = []
 test_rmse = []
 degree = 80
+
 lambda_reg_values = numpy.linspace(0.01,0.99,100)
 
 for lambda_reg in lambda_reg_values:
